@@ -1,10 +1,11 @@
 {
-  "name": "typescript-project",
+  "name": "discord-server-cloner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Narzędzie do kopiowania całej struktury serwera Discord, włącznie z kanałami, rolami i uprawnieniami. Przydatne gdy chcesz stworzyć kopię serwera z zachowaniem wszystkich ustawień.",
   "main": "src/index.ts",
   "type": "module",
   "packageManager": "pnpm@10.6.5",
+  "author": "Wolfi",
   "scripts": {
     "build": "tsc",
     "prod": "cross-env NODE_ENV=production node dist/index.js",
@@ -20,6 +21,7 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3",
-    "dotenv": "^16.4.7"
+    "dotenv": "^16.4.7",
+    "discord.js-selfbot-v13": "^2.15.0"
   }
 }
