@@ -1,0 +1,25 @@
+{
+  "name": "typescript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "type": "module",
+  "packageManager": "pnpm@10.6.5",
+  "scripts": {
+    "build": "tsc",
+    "prod": "cross-env NODE_ENV=production node dist/index.js",
+    "dev": "tsx .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "prettier": "^3.5.3",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.7"
+  }
+}
